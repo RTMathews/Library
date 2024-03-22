@@ -8,7 +8,10 @@ function Book(title, author, pages, read) {
 }
 
 function addBookToLibrary() {
-    
+    let title = document.querySelector("#title").value;
+    let author = document.querySelector("#author").value;
+    let pages = document.querySelector("#pages").value;
+    let read = document.querySelector("#read").value;
 }
 
 let newBookBtn = document.querySelector("#new-book-btn");
